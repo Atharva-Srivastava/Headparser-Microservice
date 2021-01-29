@@ -18,13 +18,10 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
-// your first API endpoint... 
+// first API endpoint... 
 app.get("/api/hello", function (req, res) {
-  res.json({greeting: 'hello API'});
+  res.json({greeting: 'Hello from API'});
 });
-
-
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
