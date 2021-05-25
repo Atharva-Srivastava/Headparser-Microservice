@@ -1,9 +1,9 @@
 # API : Request Header Parser Microservice
 
 To run this repository:-
-- Clone this repository from Github
-- In your favourite Code Editor or IDE run "npm install to install the neccessary packages" 
-- Run "node server.js to start the dvelopement server
+- Clone this repository from Github.
+- In your favourite Code Editor or IDE run "npm install" to install the neccessary packages.
+- Run "node server.js" to start the dvelopement server.
 
 ### User stories:
 
